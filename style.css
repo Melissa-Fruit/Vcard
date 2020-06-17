@@ -1,0 +1,14 @@
+body {
+  background-image: url("image/Vcard1.jpg");
+  background-size: cover;
+}
+h1,
+h2,
+p {
+  color: white;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

@@ -52,5 +52,16 @@ img {
   margin-right: auto;
 }
 h2 {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+}
+p {
+  font-size: 20px;
+}
+ul,
+li {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 479px) p, ul, li {
+  font-size: 20px;
 }

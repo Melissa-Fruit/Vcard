@@ -60,6 +60,10 @@ img {
 h2 {
   margin-bottom: 80px;
 }
+h2:hover {
+  color: darkgoldenrod;
+  font-size: 40px;
+}
 p {
   font-size: 30px;
 }
@@ -67,8 +71,12 @@ ul,
 li {
   font-size: 25px;
 }
+a:hover {
+  color: darkgoldenrod;
+  text-decoration: underline;
+}
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 720px) {
   p,
   ul,
   li {
